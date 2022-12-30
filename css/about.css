@@ -1,0 +1,110 @@
+
+/* .slider{
+    background-image: url(/images/cover-image.jpg);
+    height: 46vh;
+    background-size: contain;
+    position: relative;
+    /* opacity: 0.4; */
+    /* margin: 8px auto; */
+    /* width: 30px; */
+    /* background-repeat: no-repeat; */
+/* } */ *
+.image-container {
+
+position:relative;
+
+}
+
+.image {
+
+    opacity: .2;
+    height: 57vh;
+    width: 80.8vw;
+}
+
+.text {
+
+    font-size: 7.5em;
+    position: absolute;
+    left: 17vw;
+    top: 35vh;
+    font-family: 'Spectral', serif;
+    color: #692c83;
+    opacity: 1;
+
+}
+/* .caption-text{
+    font-size: 5.5em;
+    position: absolute;
+    left: 217px;
+    top: 9px;
+    font-family: 'Spectral', serif;
+    color: #692c83;
+} */
+.about-portfolio{
+    height: auto;
+    background-size: cover;
+    position: relative;
+    /* opacity: 0.4; */
+    /* margin: 12px auto; */
+    
+}
+.about-portfolio h2:first-child{
+    font-family: 'Dancing Script', cursive;
+    font-weight: lighter;
+    font-size: 3em;
+    margin: 0 0 2px 13px;
+    color: #570396;
+    /* text-align: center; */
+}
+/* My details */
+.mydetails{
+    display: flex;
+    
+}
+
+.my-image img{
+    height: 52vh;
+    margin: 11px 4px 26px 16vw;
+}
+.mydetails-para{
+    width: 33vw;
+    padding: 9vh 21px 0 33px;
+   
+}
+.mydetails-para p{
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: #692c83;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+
+.down-arrow img{
+    width: 19vw;
+    margin: 17px 0;
+}
+.card{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 26vw;
+    margin-left: 5px;
+    color: white;
+}
+.ecom-logo img{
+    width: 19vw;
+    margin: 17px 0;
+}
+.card h2{
+    color: #570396;
+    font-family: 'Poppins', sans-serif;
+}
+.card p{
+    text-align: center;
+    margin: 10px 0;
+    width: 17vw;
+    color: #8C1BE3;
+    font-family: 'Poppins', sans-serif;
+}

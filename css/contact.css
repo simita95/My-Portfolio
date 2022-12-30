@@ -1,0 +1,153 @@
+.contact-Us-background{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(138,54,202,1) 100%);
+  height: 40vh; 
+}
+.contact-Us-background h2{
+    text-align: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 4rem;
+    color: #ffffff;
+    opacity: 1;
+    padding-top: 59px;
+}
+.contact-Us-background p{
+    text-align: center;
+    font-family: 'Spectral', serif;
+    /* font-size: 2rem; */
+    color: #ffffff;
+    opacity: 1;
+    width: 46vw;
+    position: relative;
+    left: 17vw;
+}
+.getInTouch-portion{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 4vh;
+    left: 17vw;
+}
+
+/* .getInTouch-portion{
+    display: flex;
+}*/
+
+.getInTouch-img img{
+    width: 14vw;
+    padding: 5px 5px 0 5px;
+    border-radius: 40px;
+} 
+.getInTouch-Content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 3px;
+    left: 14px;
+}
+.getInTouch-Content h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding-bottom: 7px;
+    /* text-align: center; */
+}
+.getInTouch-Content hr{
+    width: 17%;
+    position: relative;
+    left: 2px;
+}
+.faviconFor-getInTouch{
+    display: flex;
+    /* position: absolute; */
+    /* flex-direction: column; */
+}
+.faviconFor-getInTouch i{
+    border: 2px solid #8a36ca;
+    margin: 6px;
+    padding: 4px;
+    border-radius: 26px;
+    transform: rotate(90deg);
+    color: #8a36ca;
+}
+.faviconFor-getInTouch p{
+    margin: 10px 0 0 6px;
+    
+}
+.faviconFor-getInTouch a{
+    color: black;
+    margin: 10px 0 0 6px;
+    text-decoration: none;
+}
+
+.contactUs-form{
+    /* background-color: rgb(205 182 208 / 20%); */
+    /* border: 2px solid black; */
+    height: 28vh;
+    width: 35%;
+    position: relative;
+    bottom: 46vh;
+    left: 45vw;
+    z-index: 1;
+    /* -webkit-box-shadow: inset 2px 3px 20px -18px rgb(161 127 189 / 37%);
+    -moz-box-shadow: inset 2px 3px 20px -18px rgba(161,127,189,0.37);
+    box-shadow: inset 2px 3px 20px -18px rgb(161 127 189 / 37%); */
+}
+.input-field{
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+}
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    width: 100%;
+    /* margin-bottom: 10px; */
+    margin: 16px 0px 8px 21px;
+    
+}
+  
+.icon {
+    padding: 10px;
+    color: green;
+    min-width: 50px;
+    text-align: center;
+}
+  
+.input-field {
+    width: 84%;
+    padding: 10px;
+    text-align: center;
+    order: none;
+    border: none;
+    border-radius: 10px;
+}
+  
+/* .submit-button{
+    
+    
+} */
+.submit-button input{
+    margin-left: 10vw;
+    /* background: rgb(17,121,9); */
+    border: none;
+    color: white;
+    /* background: rgba(138, 54, 202, 0.697); */
+background: radial-gradient(circle, rgba(138,54,202,1) 0%, rgba(194,148,229,1) 42%, rgba(138,54,202,1) 93%);
+    /* background: radial-gradient(circle, rgba(17,121,9,1) 0%, rgba(104,184,98,1) 100%); */
+    padding: 13px;
+    border-radius: 8px;
+}
+.submit-button input:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+.contactUs-form h2 {
+    padding-top: 17px;
+    color: #8a36ca;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
