@@ -1,35 +1,116 @@
-*{
-    margin: 0;
-    padding: 0;
+
+/* @media screen and (max-width:1444px) {
+    .my-details{
+        top: 3vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Poppins', sans-serif;
+        width: 36vw;
+        position: relative;
+        /* border: 2px solid red; 
+        padding: 6em 2em;
+    }
+    .my-details h3{
+        position: relative;
+    font-size: 2em;
+    left: 4px;
+    }
+    .fed-responsive{
+        font-size: 20px;
+    }
+    .fed-desc-responsive{
+        text-align: initial;
+        font-size: 1em;
+        left: 2vw;
+        position: relative;
+        width: 24vw;
+        padding: 18px 20px;
+    }
+    nav ul{
+        list-style-type: none;
+        margin: 9px 17em;
+    }
+    .icons{
+        right: 59em;
+        position: relative;
+        margin: 4px;
+        padding: 7px 8px 28px 0px;
+        top: 6em;
+    }
+} */
+
+@media (max-width: 480px) {
+    .first-container{
+        display: flex;
+    padding: 19px 0px;
+    }
+    nav ul {
+        list-style-type: none;
+        margin: 9px 2em;
+    }
+    nav ul li {
+        display: inline;
+    }
+    nav ul li a{
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        padding: 0 11px;
+    }
+    nav ul li a:hover{
+        font-weight: bold;
+    
+    }
+    .dark {
+        padding: 6px 15px;
+        margin: 8px;
+        position: absolute;
+        left: 37em;
+        cursor: pointer;
+    }
+    .my-details{
+        top: 3vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Poppins', sans-serif;
+        width: 36vw;
+        position: relative;
+        /* border: 2px solid red; */
+        padding: 6em 2em;
+    }
+    .my-details h3{
+        position: relative;
+    font-size: 2em;
+    left: 4px;
+    }
+    .fed-responsive{
+        font-size: 20px;
+    }
+    .fed-desc-responsive{
+        text-align: initial;
+        font-size: 1em;
+        left: 2vw;
+        position: relative;
+        width: 24vw;
+        padding: 18px 20px;
+    }
+    
+    .icons{
+        right: 40em;
+    position: relative;
+    margin: 4px;
+    padding: 7px 8px 28px 0px;
+    top: 9em;
+    }
 }
+
+
 header{
     padding: 19px 37px;
     /* border: 2px solid red; */
     height: 26px;
 }
-.topnav {
-    overflow: hidden;
-    background-color: #333;
-    position: relative;
-  }
-  .topnav #myLinks {
-    display: none;
-  }
-  .topnav a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-  }
-  
-  .topnav a.icon {
-    background: blue;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
 .logo p{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
@@ -39,22 +120,8 @@ header{
     font-family: 'Hanken Grotesk', sans-serif;
     font-weight: bold;
 }
-nav{
-    display: flex;
-}
-nav ul{
-    list-style-type: none;
-    margin: 9px 20em;
-    
-}
-nav ul li {
-    display: inline;
-}
-nav ul li a{
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    padding: 0 11px;
-}
+
+
 nav ul li a:hover{
     font-weight: bold;
 
@@ -99,23 +166,6 @@ main{
     padding: 6em 2em;
 
 }
-.my-details h3{
-    position: relative;
-    font-size: 2em;
-    right: 11px;
-}
-.fed{
-    font-size: 23px;
-}
-.fed-desc{
-    text-align: center;
-    /* height: 31vh; */
-    position: relative;
-    /* left: 7em; */
-    /* border: 2px solid blue; */
-    width: 22vw;
-    padding: 20px;
-}
 /* social media  section */
 /* .socialIcons{
     display: flex;
@@ -123,13 +173,7 @@ main{
     justify-content: center;
 } */
 
-.icons{
-    right: 61em;
-    position: relative;
-    margin: 4px;
-    padding: 7px 11px 27px 0px;
-    top: 5em;
-}
+
 
 /* .my-image{
     position: relative;
@@ -199,5 +243,3 @@ footer span{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
-
-
