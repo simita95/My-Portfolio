@@ -21,7 +21,7 @@ nav{
 }
 nav ul{
     list-style-type: none;
-    margin: 9px 11em;
+    margin: 9px 20em;
     
 }
 nav ul li {
@@ -136,7 +136,7 @@ main{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
     font-weight: bold;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 
 }
 

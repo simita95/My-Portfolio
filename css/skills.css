@@ -1,0 +1,34 @@
+    
+    .skills{
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 75vh;
+      }
+    .skills-images{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        /* gap: 0px; */
+        grid-auto-rows: auto;
+        height: auto;
+    }
+  .skills-images img {
+    height: 126px;
+    width: 126px;
+    margin: 11px 39px 31px 2em;
+  }
+  
+  .skills h2{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: lighter;
+    font-size: 2em;
+    margin: 0 0 2px 13px;
+    color: #570396;
+    /* text-align: center; */
+    padding-bottom: 7vh;
+}
